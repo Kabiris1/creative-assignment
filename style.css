@@ -1,0 +1,62 @@
+.bgImg {
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.design-element {
+  position: relative;
+}
+.design-element-left-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background-color: #2a0896;
+  border-bottom-right-radius: 150px;
+}
+
+.design-element-right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background-color: #2a0896;
+  border-top-left-radius: 150px;
+}
+.span1 {
+  margin-left: 1rem;
+}
+.footer-icon {
+  margin-right: 1rem;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  border-right: 2px solid #2a0896;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: #2a52be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+}
